@@ -6,6 +6,10 @@
 - a <p> that says “ME TOO!”
 */ 
 
+// main container:
+const container = document.createElement('div')
+document.body.appendChild(container)
+
 const paraOne = document.createElement('p')
 
 // Red <p> element:
@@ -46,5 +50,4 @@ const paraTwo = document.createElement('p')
 // paraTwo.classList.add('')
 paraTwo.textContent = ('ME TOO!')
 div.appendChild(paraTwo)
-
 
